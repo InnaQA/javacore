@@ -3,6 +3,8 @@ package com.InnaQA.app.homework.homework7;
 import com.InnaQA.app.homework.homework7.LoopsArraysRunner;
 import java.util.Scanner;
 
+import static com.InnaQA.app.homework.homework7.LoopsArraysRunner.*;
+
 public class CallLoopsArraysRunner {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
@@ -15,17 +17,38 @@ public class CallLoopsArraysRunner {
         System.out.println("7 - Для вывода двумерного массива из 8 строк по 5 столбцов в каждой из случайных целых чисел из отрезка [10;99]- нажмите 7: ");
 
         int menu = scanner.nextInt();
-        if (menu == 1) {
-            LoopsArraysRunner.number1();
+
+        switch (menu) { // ип даних має бути одинаковий у всіх методах які пишемо всередині свіча
+            case 1 : LoopsArraysRunner.number1();
+            break;
+            case 2 : LoopsArraysRunner.number2();
+            break;
+            case 3 : LoopsArraysRunner.number3();
+            break;
+            case 4 : LoopsArraysRunner.number4();
+            break;
+            case 5 : LoopsArraysRunner.number5();
+            break;
+            case 6 : LoopsArraysRunner.number6();
+            break;
+            case 7 : LoopsArraysRunner.number7();
+            break;
+            default: System.out.println
+
+                    ("You have made incorrect choice");
+        }
+
+        /*if (menu == 1) {
+            number1();
         }
         if (menu == 2) {
-            LoopsArraysRunner.number2();
+            number2();
         }
         if (menu == 3) {
-            LoopsArraysRunner.number3();
+            number3();
         }
         if (menu == 4) {
-            LoopsArraysRunner.number4();
+            number4();
         }
         if (menu == 5) {
             LoopsArraysRunner.number5();
@@ -35,7 +58,7 @@ public class CallLoopsArraysRunner {
         }
         if (menu == 7) {
             LoopsArraysRunner.number7();
-        }
+        } */
 
     }
 }
