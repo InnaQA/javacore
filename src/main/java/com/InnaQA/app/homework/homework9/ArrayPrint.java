@@ -7,11 +7,11 @@ public class ArrayPrint {
         bubble_homework object = new bubble_homework();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("1 - Для вывода чисел от меньшего до большего - нажмите 1: ");
-        System.out.println("2 - Для вывода чисел от большего до меньшего - нажмите 2: ");
-        System.out.println("3 - Для вывода двумерного массива из 5 строк по 8 столбцов - нажмите 3: ");
-        System.out.println("4 - Для проверки остаточных значений учеников - нажмите 4: ");
-        System.out.println("5 - Для Selection сортировки - нажмите 5: ");
+        System.out.println("1 - Для вывода чисел от меньшего до большего -нажмите 1: ");
+        System.out.println("2 - Для вывода чисел от большего до меньшего -нажмите 2: ");
+        System.out.println("3 - Для вывода двумерного массива из 5 строк по 8 столбцов -нажмите 3: ");
+        System.out.println("4 - Для проверки остаточных значений учеников -нажмите 4: ");
+        System.out.println("5 - Для Selection сортировки -нажмите 5: ");
         int menu2 = scanner.nextInt();
 
         switch (menu2){
