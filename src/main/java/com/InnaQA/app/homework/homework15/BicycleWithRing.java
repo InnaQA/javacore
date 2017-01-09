@@ -1,7 +1,9 @@
 package com.InnaQA.app.homework.homework15;
 
-/**
- * Created by Інна on 09.01.2017.
- */
-public class BicycleWithRing {
+public class BicycleWithRing extends CustomBicycle implements BicycleWithRingInterface{
+
+    @Override
+    public void ring() {
+        System.out.println("Di-ling!");
+    }
 }
