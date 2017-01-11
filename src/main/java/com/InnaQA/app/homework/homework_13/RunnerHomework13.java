@@ -1,11 +1,6 @@
 package com.InnaQA.app.homework.homework_13;
 
-/**
- * Created by Інна on 10.01.2017.
- */
-public class RunnerHomework13 {
-  import java.util.Scanner;
-
+import java.util.Scanner;
 import static java.lang.Integer.parseInt;
 
 public class RunnerHomework13 {
